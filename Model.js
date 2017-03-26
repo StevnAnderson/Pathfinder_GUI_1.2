@@ -2,6 +2,7 @@ function diceRoll() {
     alert("This is Steven's change!");
 }
 
+
 function animalCompanion(name,str,dex,con,int,wis,cha){
 	this.name = name;
 	 
