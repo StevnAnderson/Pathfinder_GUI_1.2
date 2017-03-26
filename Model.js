@@ -3,35 +3,32 @@ function diceRoll() {
 }
 
 
-
-
-function companionGenerator(name,str,dex,con,int,wis,cha){
-	this.name;
-	
+function animalCompanion(name,str,dex,con,int,wis,cha){
+	this.name = name;
+	 
 	this.level = 0;
 	this.xp = 0;
 	
-	this.str;
-	this.dex;
-	this.con;
-	this.int;
-	this.wis;
-	this.cha;
+	this.str = str;
+	this.dex = dex;
+	this.con = con;
+	this.int = int;
+	this.wis = wis;
+	this.cha = cha;
 	
-	this.create(){
-		this.name = name;
+	this.ac;
+	this.touchAc;
+	this.flatFootAc;
 	
-		this.str = str;
-		this.dex = dex;
-		this.con = con;
-		this.int = int;
-		this.wis = wis;
-		this.cha = cha;
+	this.rangeAttack;
+	this.meleeAttack;
+	
+	this.create = function(){
+		return "ass"
 	}
-	
+	this.create();
 }
 
-function bat(){
-	return "ass";
+function bat(name){
+	animalCompanion.call(this,name,17,15,13,2,14,6);
 }
-
