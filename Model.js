@@ -1,4 +1,7 @@
 function diceRoll() {
+    alert("This is Steven's change!");
+}
+
 
 }
 
@@ -29,5 +32,6 @@ function companionGenerator(name,str,dex,con,int,wis,cha){
 }
 
 function bat(){
-	
+	return "ass";
 }
+
