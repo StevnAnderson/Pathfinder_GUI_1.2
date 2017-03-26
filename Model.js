@@ -5,8 +5,11 @@ function diceRoll() {
 
 }
 
-function companionGenerator(){
-	this.name
+function companionGenerator(name,str,dex,con,int,wis,cha){
+	this.name;
+	
+	this.level = 0;
+	this.xp = 0;
 	
 	this.str;
 	this.dex;
@@ -16,8 +19,19 @@ function companionGenerator(){
 	this.cha;
 	
 	this.create(){
-		
+		this.name = name;
+	
+		this.str = str;
+		this.dex = dex;
+		this.con = con;
+		this.int = int;
+		this.wis = wis;
+		this.cha = cha;
 	}
 	
+}
+
+function bat(){
+	return "ass";
 }
 
