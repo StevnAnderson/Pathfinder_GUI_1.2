@@ -3,7 +3,7 @@ function diceRoll() {
 }
 
 
-}
+
 
 function companionGenerator(name,str,dex,con,int,wis,cha){
 	this.name;
